@@ -1,0 +1,29 @@
+.button {
+	margin: 5px;
+}
+.counter {
+	margin: 0 auto;
+	width: 45%;
+	font-size: 2rem;
+}
+
+.slideMessage {
+	width: max-content;
+	animation: slideMessage;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+
+@keyframes slideMessage {
+	from {
+		margin-left: 100%;
+	}
+	to {
+		margin-left: 0;
+	}
+}
+
+.sliderButton {
+	margin: 2rem;
+	padding: 1rem;
+}
